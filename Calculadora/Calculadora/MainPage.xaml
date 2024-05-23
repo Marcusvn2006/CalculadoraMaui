@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculadora.MainPage">
+
+
+
+    <ScrollView
+        HorizontalOptions="Center"
+        VerticalOptions="End"
+        
+        >
+        <HorizontalStackLayout
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Spacing="14"
+            
+         >
+            <VerticalStackLayout
+            VerticalOptions="End"
+            Spacing="14">
+
+                <Button 
+             CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="AC"
+             FontSize="25"
+             BackgroundColor="#c77dff"
+             
+        />
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="7" 
+             FontSize="25"
+             BackgroundColor="#f2edf2"
+        />
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="4" 
+             FontSize="25"
+             BackgroundColor="#f2edf2"       
+        />
+
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="1" 
+             FontSize="25"
+             BackgroundColor="#f2edf2"       
+        />
+                <Button 
+               CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="0"
+             FontSize="25"
+             BackgroundColor="#f2edf2"       
+        />
+
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout
+ 
+            Spacing="14"
+                VerticalOptions="End">
+
+
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="( )"
+             FontSize="25"
+             BackgroundColor="#c77dff"
+        />
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="8" 
+             FontSize="25"
+             BackgroundColor="#f2edf2"
+        />
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="5"
+             FontSize="25"
+             BackgroundColor="#f2edf2"       
+        />
+
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="2"
+             FontSize="25"
+             BackgroundColor="#f2edf2"       
+        />
+                <Button
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="," 
+             FontSize="25"
+             BackgroundColor="#f2edf2"       
+        />
+
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout
+ 
+            Spacing="14"
+                VerticalOptions="End">
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="%"
+             FontSize="25"
+             BackgroundColor="#c77dff"
+        />
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="9"
+             FontSize="25"
+             BackgroundColor="#f2edf2"
+                    
+        />
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="6"
+             FontSize="25"
+             BackgroundColor="#f2edf2"
+        />
+
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="3"
+             FontSize="25"
+             BackgroundColor="#f2edf2"
+        />
+                <Button 
+               CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="⌫"
+             FontSize="25"
+             BackgroundColor="#f2edf2"
+             
+        />
+
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout
+ 
+            Spacing="14"
+                VerticalOptions="End">
+
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="÷" 
+             FontSize="25"
+             BackgroundColor="#f2b5d4"
+
+        />
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="x"
+             FontSize="25"
+             BackgroundColor="#f2b5d4"
+        />
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="-" 
+             FontSize="25"
+             BackgroundColor="#f2b5d4"
+        />
+
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="+" 
+             FontSize="25"
+             BackgroundColor="#f2b5d4"
+        />
+                <Button 
+              CornerRadius="68"
+             WidthRequest="70"
+             HeightRequest="70"
+             Text="=" 
+             FontSize="25"
+             BackgroundColor="#f2b5d4"       
+              
+        />
+
+
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+    </ScrollView>
+
+</ContentPage>
